@@ -15,5 +15,8 @@ public class SimplePicture extends GraphicsProgram {
 		add(robot);
 		GLabel label = new GLabel("How We feel when github isn't working", 200, 400);
 		add(label);
+		
+		GLabel label2 = new GLabel("Is this thing on?", 300, 500);
+		add(label2);
 	}
 }
